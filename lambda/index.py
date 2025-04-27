@@ -5,7 +5,7 @@ import urllib.error
 import urllib.parse  
   
 # グローバル変数  
-API_ENDPOINT = os.environ.get('API_ENDPOINT', 'https://eea4-34-143-213-204.ngrok-free.app')  
+API_ENDPOINT = os.environ.get('API_ENDPOINT', 'https://08ed-35-247-171-100.ngrok-free.app')  
   
 def lambda_handler(event, context):  
     try:  
