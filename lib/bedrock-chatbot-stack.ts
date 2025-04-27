@@ -157,7 +157,7 @@ export class BedrockChatbotStack extends cdk.Stack {
       memorySize: 128,
       role: lambdaRole,
       environment: {
-        #MODEL_ID: modelId,
+        //MODEL_ID: modelId,
         API_ENDPOINT: 'https://eea4-34-143-213-204.ngrok-free.app', 
       },
     });
